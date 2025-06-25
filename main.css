@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    padding-top: 40px;
+
+}
+.container{
+    max-width: 1180px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.header__list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+
+}
+.header__link{
+color: #1f1534;
+font-family: "Mulish";
+font-size: 18px;
+font-weight: 200;
+line-height: 23px;
+text-decoration: none;
+opacity: 0.5;
+transition: 0.5s ease-in-out;
+}
+.header__link:hover{
+    color: #000000;
+    opacity: 1;
+}
+.hero{
+    padding-top: 91px;
+    padding-bottom: 91px;
+}
+.hero__texbox{
+    width: 440px;
+
+}
+.hero__titel{
+    color: #000000;
+font-family: "Mulish";
+font-size: 48px;
+font-weight: 200;
+line-height: 56px;
+}
+.hero__tex{
+    color: rgb(125, 121, 135);
+font-family: "Mulish";
+font-size: 21px;
+font-weight: 200;
+line-height: 32px;
+margin-top: 26px;
+margin-bottom: 35px;
+}
+.hero__btn{
+    width: 197px;
+    border-radius: 55px;
+    background-color: #458ff6;
+color: #ffffff;
+font-family: "Mulish";
+font-size: 18px;
+font-weight: 200;
+line-height: 23px;
+padding: 14px 0;
+border: none;
+transition: 2s ease-in-out;
+}
+.hero__wraper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero__btn:hover{
+    background-color: #000000;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1179px;
+    width: 100%;
+    margin: 0 auto;
+}
+.services{
+    /* padding-top: 91px;
+    padding-bottom: 91px; */
+    padding: 91px 0;
+}
+.services__title{
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+}
+.bola{
+    width: 380px;
+    padding: 56px;
+    background-color: #E7E7E7;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+}
+.ota{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.btn{
+width: 300px;
+background-color: blue;
+color: white;
+display: flex;
+justify-content: center;
+/* align-items: center; */
+/* justify-content: center; */
+margin: 50px auto;
+padding: 20px;
+border-radius: 20px;
+transition: 1s ease-in-out;
+}
+.btn:hover{
+    background-color: red;
+    color: black;
+}
+.btn:active{
+    background-color: black;
+    color: white;
+    font-size: 50px;
+}
+    .box{
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        transition: 1s ease-in-out;
+    }
