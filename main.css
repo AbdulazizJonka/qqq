@@ -149,3 +149,168 @@ transition: 1s ease-in-out;
         background-color: red;
         transition: 1s ease-in-out;
     }
+.texbox{
+    text-align: center;
+    transition: 1s ease-in-out;
+}
+.texbox:hover{
+    color: #0000ff;
+}
+.check{
+    padding-top: 152px;
+    padding-bottom: 230px;
+}
+.check__titel{
+color: rgb(0, 0, 0);
+font-family: "Mulish";
+font-size: 36px;
+font-weight: 200;
+line-height: 56px;
+text-align: center;
+margin-bottom: 109px;
+}
+.check__item{
+    width: 380px;
+}
+.check__wrapper{
+box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+background-color: #ffffff;
+padding: 34px 84px 42px 30px;
+}
+.check__list{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.check__btn{
+    display: flex;
+justify-content: center;
+align-items: center;
+margin: 0 auto;
+width: 200px;
+height: 56px;
+background-color: #ffffff;
+border: 2px solid #0000ff;
+border-radius: 20px;
+transition: 1s ease-in-out;
+}
+.check__btn:hover{
+    background-color: #1f1534;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.footer {
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  padding: 50px;
+  color: white;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-left {
+  max-width: 300px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo-circle {
+  background-color: white;
+  color: #4facfe;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.logo-text {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.description {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #e0f7fa;
+}
+
+.footer-links {
+  display: flex;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.link-group h4 {
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.link-group a {
+  display: block;
+  color: #e0f7fa;
+  text-decoration: none;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.link-group a:hover {
+  text-decoration: underline;
+}
+.check__link{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.check__link::before{
+    background-image: url(./image/Vector.png);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 10px;
+    display: inline;
+    content: "";
+}
+.read-more {
+  color: #4B0082; /* Moviy binafsha */
+  text-decoration: underline;
+  font-size: 16px;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  transition: color 0.3s;
+}
+
+.read-more .arrow {
+  color: #4B0082;
+  font-size: 18px;
+  transition: transform 0.3s;
+}
+
+.read-more:hover {
+  color: #0000CD; /* Hoverda rang */
+}
+
+.read-more:hover .arrow {
+  transform: translateX(3px);
+}
+.arrowk{
+    text-decoration: none;
+}
