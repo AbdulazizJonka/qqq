@@ -113,6 +113,7 @@ transition: 2s ease-in-out;
     flex-direction: column;
     gap: 30px;
     align-items: flex-start;
+    transition: 1s ease-in-out;
 }
 .ota{
     display: flex;
@@ -120,6 +121,7 @@ transition: 2s ease-in-out;
     gap: 10px;
     justify-content: space-between;
     margin-top: 40px;
+    
 }
 .btn{
 width: 300px;
@@ -313,4 +315,8 @@ body {
 }
 .arrowk{
     text-decoration: none;
+}
+.bola:hover{
+    background-color: #0000CD;
+    color: #ffffff;
 }
